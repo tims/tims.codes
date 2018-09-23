@@ -1,6 +1,3 @@
-language: go
-go:
-- 1.10
 env:
   global:
   - HUGO_VERSION=0.48
