@@ -22,3 +22,5 @@ widget: about
 # Bio
 
 Tim Sell is a data analytics engineer and consultant at Google Cloud in Singapore.
+
+Fan of the [Recurse Center](https://recurse.com).
