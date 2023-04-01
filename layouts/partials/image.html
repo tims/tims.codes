@@ -1,0 +1,5 @@
+{{ if .Params.image }}
+    {{ $image := resources.Get .Params.image }}
+    {{ $image := $image.Fit "600x400" }}
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+{{ end }}

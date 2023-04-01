@@ -1,0 +1,7 @@
+{{ range $link := .Params.links }}
+<div>
+    <a href="{{ $link.href }}">{{ $link.name }}</a>
+</div>
+{{ end }}
+
+

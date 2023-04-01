@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h2>
+        {{ .Page.Title}}
+    </h2>
+    {{ partial "links.html" . }}
+    
+    {{ .Content }}
+    
+    {{ partial "image.html" . }}
+{{ end }}

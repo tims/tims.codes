@@ -1,5 +1,12 @@
 ---
-title: "Tim Sell"
-date: 2018-09-22T13:07:56+08:00
-draft: false
+links: 
+- name: github
+  href: https://github.com/tims
+- name: linkedin
+  href: https://www.linkedin.com/in/timsell/
 ---
+
+Tim Sell is a Data and ML Engineer. @ Block, Google, Thoughtworks and Last.fm.
+
+Tied to Melbourne, Singapore and London.
+
