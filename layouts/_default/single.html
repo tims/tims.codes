@@ -1,5 +1,6 @@
 {{ define "main" }}
     {{ partial "title.html" . }}
+    <div>{{ .Date.Format "January 2, 2006" }}</div>
     {{ partial "links.html" . }}
     {{ .Content }}
     {{ partial "image.html" . }}

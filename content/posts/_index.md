@@ -1,4 +1,4 @@
 ---
-title: Games
+title: Posts
 hide_title: true
 ---
