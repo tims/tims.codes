@@ -1,4 +1,6 @@
 <meta charset="utf-8">
 <title>{{ .Params.title }} | {{ .Site.Title }}</title>
-{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
+{{ $sassTemplate := resources.Get "sass/main.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
+
