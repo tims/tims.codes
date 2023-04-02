@@ -1,6 +1,10 @@
+{{ $pageTitle := .Page.Title }}
 <nav>
     <ul>
-        <li><a href="/">About</a></li>
-        <li><a href="/games/">Games</a></li>
+        {{ range site.Menus.main }}
+            <li {{ if eq .Name $pageTitle }}class="selected"{{ end }}>
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
     </ul>
 </nav>

@@ -18,8 +18,13 @@ nav ul {
     }
   }
 
+  .selected a {
+    text-decoration: underline;
+  }
+
   li {
     display: inline;
+    padding: 5px;
   }
 }
 

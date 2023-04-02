@@ -1,4 +1,6 @@
 ---
+menu: main
+title: About
 links: 
 - name: github
   href: https://github.com/tims

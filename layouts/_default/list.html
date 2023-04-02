@@ -1,10 +1,5 @@
 {{ define "main" }}
-    <h2>
-        {{ .Page.Title}}
-    </h2>
-    {{ partial "links.html" . }}
-    
+    {{ partial "title.html" . }}
     {{ .Content }}
-    
-    {{ partial "image.html" . }}
+    {{ partial "links.html" . }}
 {{ end }}

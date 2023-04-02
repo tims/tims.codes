@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'tims.codes'
+sectionPagesMenu = 'main'
 
 [params]
 author = 'Tim'
